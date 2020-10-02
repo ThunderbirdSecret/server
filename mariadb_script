@@ -1,0 +1,4 @@
+CREATE DATABASE server_data;
+CREATE USER 'admin'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL ON server_data.* TO 'admin'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
