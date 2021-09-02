@@ -10,6 +10,6 @@ The script.sh file includes all the necessary rules for stopping and deleting al
 
 To remove the current docker type:
 
-$docker stop server-21
-$docker rm $(docker ps -qa)
-$docker rmi $(docker images -q)
+$ docker stop server-21
+  docker rm $(docker ps -qa)
+  docker rmi $(docker images -q)
